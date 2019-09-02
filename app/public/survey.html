@@ -158,5 +158,46 @@
     </footer>
 </div>
 
+<script type="text/javascript">
+
+$("#submit").on("click", function() {
+
+    function validateForm() {
+        var isValid = true;
+        $(".form-control").each(function() {
+            if ($(this).val() === "") {
+                isValid = false;
+            }
+        });
+
+        $(".chosen-select").each(function() {
+            if ($(this).val() === "") {
+                isValid = false;
+            }
+        });
+        return isValid;
+    }
+
+    if (validateForm()) {
+
+        var data = {
+            name: $("#name").val(),
+            photo: $("#photo").val(),
+            scores: [
+                $("#q").val(),
+                $("#q").val(),
+                $("#q").val(),
+                $("#q").val(),
+                $("#q").val(),
+                $("#q").val(),
+                $("#q").val(),
+                $("#q").val(),
+                $("#q").val(),
+                $("#q").val(),
+            ]
+        };
+    }
+})
+</script>
 </body>
 </html>
