@@ -224,7 +224,7 @@ $("#submit").on("click", function() {
 
     if (validateForm()) {
 
-        var data = {
+        var userData = {
             name: $("#name").val(),
             photo: $("#photo").val(),
             scores: [
@@ -243,7 +243,7 @@ $("#submit").on("click", function() {
 
         var currentURL = window.location.origin;
 
-        $.post(currentURL + "/api/friends", data, function(data) {
+        $.post(currentURL + "/api/friends", userData, function(data) {
 
             $("#matchName").text(data.name);
             $("#matchImg").attr("src", data.photo);
