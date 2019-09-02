@@ -161,6 +161,27 @@
     </footer>
 </div>
 
+<div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Best Match</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h2 id="matchName"></h2>
+              <img id="matchImg" class="img-responsive" src="https://i.mdel.net/i/db/2013/5/164029/164029-500w.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
 <script type="text/javascript">
 
 $("#submit").on("click", function() {
@@ -204,9 +225,15 @@ $("#submit").on("click", function() {
 
         $.post(currentURL + "/api/friends", data, function(data) {
 
+            $("#resultsModal").modal("toggle");
             alert("working");
         });
     }
+    else {
+        alert("Invalid submission: Please fill out all fields.")
+    }
+
+    return false;
 });
 </script>
 </body>
