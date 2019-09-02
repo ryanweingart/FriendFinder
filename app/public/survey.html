@@ -186,6 +186,26 @@
 
 $("#submit").on("click", function() {
 
+        // Chosen CSS
+        var config = {
+      ".chosen-select": {},
+      ".chosen-select-deselect": {
+        allow_single_deselect: true
+      },
+      ".chosen-select-no-single": {
+        vdisable_search_threshold: 10
+      },
+      ".chosen-select-no-results": {
+        bno_results_text: "Oops, nothing found!"
+      },
+      ".chosen-select-width": {
+        width: "95%"
+      }
+    };
+    for (var selector in config) {
+      $(selector).chosen(config[selector]);
+    }
+
     function validateForm() {
         var isValid = true;
         $(".form-control").each(function() {
@@ -225,8 +245,9 @@ $("#submit").on("click", function() {
 
         $.post(currentURL + "/api/friends", data, function(data) {
 
+            $("#matchName").text(data.name);
+            $("#matchImg").attr("src", data.photo);
             $("#resultsModal").modal("toggle");
-            alert("working");
         });
     }
     else {
