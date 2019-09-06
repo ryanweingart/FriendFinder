@@ -2,7 +2,7 @@ var friends = [
 
 {
     name: "Rachel Green",
-    photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiyqr7ep7zkAhVEhuAKHXqDBm8QjRx6BAgBEAQ&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fwww.look.co.uk%252Fbeauty%252Ffriends-rachel-green-hair-beauty-moments-549868%26psig%3DAOvVaw1WxnhSSg2AhSQuSb5WriYG%26ust%3D1567863155214351&psig=AOvVaw1WxnhSSg2AhSQuSb5WriYG&ust=1567863155214351",
+    photo: "https://media.glamour.com/photos/572cd8eeb41f88e25d14f628/master/w_1600%2Cc_limit/jennifer-aniston.jpg",
     scores: [
         5,
         1,
@@ -18,7 +18,7 @@ var friends = [
   },
   {
     name: "Ross Geller",
-    photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiyqr7ep7zkAhVEhuAKHXqDBm8QjRx6BAgBEAQ&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fwww.look.co.uk%252Fbeauty%252Ffriends-rachel-green-hair-beauty-moments-549868%26psig%3DAOvVaw1WxnhSSg2AhSQuSb5WriYG%26ust%3D1567863155214351&psig=AOvVaw1WxnhSSg2AhSQuSb5WriYG&ust=1567863155214351",
+    photo: "https://media.glamour.com/photos/572cd8e4917b55c52ea0d08c/master/w_1600%2Cc_limit/friends-david-schwimmer.jpg",
     scores: [
         4,
         3,
@@ -34,7 +34,7 @@ var friends = [
   },
   {
     name: "Joey Tribbiani",
-    photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiyqr7ep7zkAhVEhuAKHXqDBm8QjRx6BAgBEAQ&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fwww.look.co.uk%252Fbeauty%252Ffriends-rachel-green-hair-beauty-moments-549868%26psig%3DAOvVaw1WxnhSSg2AhSQuSb5WriYG%26ust%3D1567863155214351&psig=AOvVaw1WxnhSSg2AhSQuSb5WriYG&ust=1567863155214351",
+    photo: "https://media.glamour.com/photos/572cd8eec8ad30c15b6b876b/master/w_1600%2Cc_limit/matt-leblanc.jpg",
     scores: [
         2,
         3,
@@ -50,7 +50,7 @@ var friends = [
   },
   {
     name: "Phoebe Buffay",
-    photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiyqr7ep7zkAhVEhuAKHXqDBm8QjRx6BAgBEAQ&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fwww.look.co.uk%252Fbeauty%252Ffriends-rachel-green-hair-beauty-moments-549868%26psig%3DAOvVaw1WxnhSSg2AhSQuSb5WriYG%26ust%3D1567863155214351&psig=AOvVaw1WxnhSSg2AhSQuSb5WriYG&ust=1567863155214351",
+    photo: "https://media.glamour.com/photos/572cd8e6917b55c52ea0d090/master/w_1600%2Cc_limit/friends-lisa-kudrow.jpg",
     scores: [
         2,
         2,
@@ -66,7 +66,7 @@ var friends = [
   },
   {
     name: "Chandler Bing",
-    photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiyqr7ep7zkAhVEhuAKHXqDBm8QjRx6BAgBEAQ&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fwww.look.co.uk%252Fbeauty%252Ffriends-rachel-green-hair-beauty-moments-549868%26psig%3DAOvVaw1WxnhSSg2AhSQuSb5WriYG%26ust%3D1567863155214351&psig=AOvVaw1WxnhSSg2AhSQuSb5WriYG&ust=1567863155214351",
+    photo: "https://media.glamour.com/photos/572cd8e62dd313e352685fcf/master/w_1600%2Cc_limit/friends-matthew-perry.jpg",
     scores: [
         1,
         1,
@@ -82,7 +82,7 @@ var friends = [
   },
   {
     name: "Monica Geller",
-    photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiyqr7ep7zkAhVEhuAKHXqDBm8QjRx6BAgBEAQ&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fwww.look.co.uk%252Fbeauty%252Ffriends-rachel-green-hair-beauty-moments-549868%26psig%3DAOvVaw1WxnhSSg2AhSQuSb5WriYG%26ust%3D1567863155214351&psig=AOvVaw1WxnhSSg2AhSQuSb5WriYG&ust=1567863155214351",
+    photo: "https://media.glamour.com/photos/572cdcfb06097e9758df9dee/master/w_1600%2Cc_limit/friends-season-one-courteny-cox.jpg",
     scores: [
         5,
         5,
