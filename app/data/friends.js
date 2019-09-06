@@ -1,8 +1,8 @@
 var friends = [
 
 {
-    name: "Ahmed",
-    photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    name: "Rachel Green",
+    photo: "images/rachelGreen.jpg",
     scores: [
         5,
         1,
@@ -17,8 +17,8 @@ var friends = [
       ]
   },
   {
-    name: "Steve",
-    photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    name: "Ross Geller",
+    photo: "images/rossGeller.jpg",
     scores: [
         4,
         3,
@@ -33,19 +33,67 @@ var friends = [
       ]
   },
   {
-    name: "Mary",
-    photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    name: "Joey Tribbiani",
+    photo: "images/joeyTribbiani.jpg",
     scores: [
-        4,
-        4,
         2,
         3,
+        1,
+        5,
+        3,
+        4,
+        5,
+        1,
+        2,
+        4
+      ]
+  },
+  {
+    name: "Phoebe Buffay",
+    photo: "images/phoebeBuffay.jpg",
+    scores: [
+        2,
         2,
         2,
         3,
-        2,
+        1,
         4,
-        5
+        5,
+        5,
+        5,
+        2
+      ]
+  },
+  {
+    name: "Chandler Bing",
+    photo: "images/chandlerBing.jpg",
+    scores: [
+        1,
+        1,
+        2,
+        3,
+        3,
+        2,
+        5,
+        1,
+        3,
+        2
+      ]
+  },
+  {
+    name: "Monica Geller",
+    photo: "images/monicaGeller.jpg",
+    scores: [
+        5,
+        5,
+        5,
+        5,
+        2,
+        2,
+        1,
+        2,
+        3,
+        4
       ]
   }
 ];
